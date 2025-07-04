@@ -5,7 +5,7 @@
 
 <!-- GIF / Demo -->
 <p align="center">
-  <img src="https://media.giphy.com/media/f9XgHHfvXe5dO/giphy.gif" width="300" alt="calendar demo"/>
+  <img src="https://github.com/user-attachments/assets/9fef8810-e944-48bb-bada-fed79900e415" alt="Demo GIF" />
 </p>
 
 <h2 align="center">🗓️ Console Calendar in C</h2>
@@ -39,3 +39,4 @@
 ```c
 if (date == today->tm_mday && month == today->tm_mon && year == (today->tm_year + 1900))
     printf("\x1b[31m%2d\x1b[0m ", date); // Red highlight for today
+
